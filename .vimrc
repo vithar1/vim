@@ -29,3 +29,5 @@ set ffs=unix,dos,mac
 "mapping
 map <C-n> :NERDTreeToggle<CR>
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
+"set escape on jj 
+imap jj <Esc>
