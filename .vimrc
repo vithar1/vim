@@ -25,9 +25,12 @@ set smartcase
 set hlsearch
 set encoding=utf8
 set ffs=unix,dos,mac
+set colorcolumn=80
+set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
 
 "mapping
 map <C-n> :NERDTreeToggle<CR>
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 "set escape on jj 
 imap jj <Esc>
+imap оо <Esc>
